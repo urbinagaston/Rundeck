@@ -1,0 +1,7 @@
+yum install java-1.8.0
+rpm -Uvh https://repo.rundeck.org/latest.rpm
+yum install rundeck
+firewall-cmd --permanent --zone=public --add-port=4440/tcp
+firewall-cmd --reload
+systemctl enable rundeckd
+systemctl start rundeckd
