@@ -10,3 +10,5 @@ systemctl start rundeckd
 https://yallalabs.com/automation-tool/how-to-install-and-configure-rundeck-centos-7-rhel-7/
 https://www.decodingdevops.com/install-rundeck-on-centos-7/
 https://es.variacode.com/post/instalaci%C3%B3n-y-primeros-pasos-de-rundeck-en-centos-linux
+
+Cron = 0 0 0 ? * 2#1 *
